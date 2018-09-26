@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euxo pipefail
+set -eux pipefail
 
 if [ ${DEBUG:-""} = "true" ]; then
     set -x
